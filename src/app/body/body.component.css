@@ -1,3 +1,6 @@
-body {
+/* body {
   background-image: url("/src/assets/background/nature-background-2.jpg");
+} */
+.page {
+  margin-left: 32%;
 }
