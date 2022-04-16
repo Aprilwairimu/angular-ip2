@@ -12,8 +12,9 @@
     );
 
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 41px;
+  border-radius: 10px;
   position: absolute;
   width: 712px;
   height: 540px;
+  padding: 20px;
 }
