@@ -9,6 +9,8 @@ const routes: Routes = [
   { path: 'login' ,component: FormComponent },
   { path: 'logout', component: BodyComponent },
   // { path: '**', component: NotFoundComponent },
+
+  { path: '', redirectTo: "/goals", pathMatch: "full" },
 ];
 
 
