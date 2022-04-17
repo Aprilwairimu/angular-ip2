@@ -1,0 +1,12 @@
+* {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(
+      180deg,
+      rgba(130, 53, 142, 0.51) 11.46%,
+      rgba(235, 240, 243, 0.829592) 55.21%,
+      rgba(46, 174, 182, 0.63) 100%
+    );
+}
+.search {
+  height: 100vh;
+}

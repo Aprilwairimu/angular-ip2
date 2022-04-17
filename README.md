@@ -1,27 +1,41 @@
-# Github
+## GITHUB SEARCH APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+## PROJECT PREVIEW
 
-## Development server
+### PROJECT DESCRIPTION
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Github search app is an Angular App that diplays the necessary repositories by retrieving the user data from Github API.By simply submitting your username ,details such as your profile and the number of repositories you have.
 
-## Code scaffolding
+### :information_desk_person: AUTHOR'S INFORMATION
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Am April wairimu a young growing developer
 
-## Build
+### NAME OF CONTRIBUTORS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The project was done as an individual.
 
-## Running unit tests
+### :pushpin: TECHNOLOGY USED
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The technologies are ;
 
-## Running end-to-end tests
+:small_blue_diamond: HTML
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+:small_blue_diamond: CSS
 
-## Further help
+:small_blue_diamond: BOOSTRAP
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+:small_blue_diamond: IMAGES
+
+### LINK TO VIEW SITE
+
+### :telephone_receiver: CONTANCT INFORMATION
+
+Find me at wairimuapril@gmail.
+
+### CREATED
+
+2022
+
+## LICENCE AND COPYRIGHT
+
+MIT Copyright (c) 2019 April Wairimu
