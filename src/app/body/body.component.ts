@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Data } from '../data';
-import { DataService } from '../data.service';
+
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-body',
@@ -9,9 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
-  datas: Data[];
-
-  data: Data;
+  
 
  
 

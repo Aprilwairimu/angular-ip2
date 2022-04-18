@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-    ghkey:
-"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"
+    githubapiurl:'https://api.github.com'
+
 
 };
 

@@ -2,6 +2,9 @@
 
 ## PROJECT PREVIEW
 
+![GITHUB SEARCH APP](src/assets/project%20sreenshot/Screenshot%201.png)
+![GITHUB SEARCH APP](src/assets/project%20sreenshot/Screenshot%202.png)
+
 ### PROJECT DESCRIPTION
 
 Github search app is an Angular App that diplays the necessary repositories by retrieving the user data from Github API.By simply submitting your username ,details such as your profile and the number of repositories you have.
@@ -24,7 +27,7 @@ The technologies are ;
 
 :small_blue_diamond: BOOSTRAP
 
-:small_blue_diamond: IMAGES
+:small_blue_diamond: TYPESCRIPT
 
 ### LINK TO VIEW SITE
 
