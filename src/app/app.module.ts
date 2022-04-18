@@ -8,6 +8,7 @@ import { BodyComponent } from './body/body.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SearchComponent } from './search/search.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SearchComponent } from './search/search.component';
     NavbarComponent,
     BodyComponent,
     NotFoundComponent,
-    SearchComponent
+    SearchComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
