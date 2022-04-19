@@ -11,7 +11,7 @@ export class UserService {
     const promise = this.http.get(
       `${environment.githubapiurl}/users/${username}`
     );
-    return await lastValueFrom(promise).then((result) => result).catch((error)=> console.log(error))
+    return await lastValueFrom(promise).then((result) => result).catch((error) => console.log(error));
   }
 
 }

@@ -1,14 +1,12 @@
-
-<h1 class="size">Enter your username</h1>
-<form class="form"(ngSubmit)="getUsername(Userinput)">
+<!-- <form (ngSubmit)="getUsername(userInput)">
     <div class="d-flex">
-        <input name="username" [(ngModel)]="user.username" class="form-control me-2" type="search" placeholder="Search"
-            aria-label="Search"  #username='ngModel'/>
+        <input name="userInput" [(ng module)]="userInput" class="form-control me-2" type="search" placeholder="Search"
+            aria-label="Search" />
         <button class="btn btn-outline-success" type="submit">Search</button>
     </div>
 
     <div class="form-group form-check"></div>
-    <button [disabled]="Userinput.length==0" type="submit" class="btn btn-primary">Submit</button>
+    <button [disabled]="userInput.length==0" type="submit" class="btn btn-primary">Submit</button>
 </form>
 <div class="container" *ngIf="user">
     <div class="row">
@@ -27,4 +25,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
