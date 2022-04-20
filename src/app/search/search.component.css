@@ -13,11 +13,12 @@ linear-gradient(180deg, rgba(109, 128, 125, 0.5) 56.93%, rgba(10, 252, 5, 0.2) 9
 .row{
   height: 100vh;
 } 
-/* .form-control{
+.form-control{
   margin-top: 20px;
 }
 .btn{
   margin-top: 20px;
-} */
+  
+}
 
 

@@ -9,6 +9,7 @@
 
 </form>
 <div class="container" *ngIf="user">
+    <div class="image"> <img src="{{ user.avatar_url }}" /></div>
     <div class="row">
         <div class="col-lg-6">
             <div class="card">
@@ -19,6 +20,7 @@
                     <div class="card-text">
                         <p>followers:{{user.followers}} </p>
                         <p>following:{{user.following}} </p>
+                        <a href="{{ user.repos_url }} " target="_blank">Repositories Url</a><br>
                         <a href="{{user.html_url}}" target="_blank">githuburl</a>
                     </div>
                 </div>
