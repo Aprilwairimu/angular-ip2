@@ -31,6 +31,8 @@ The technologies are ;
 
 ### LINK TO VIEW SITE
 
+https://aprilwairimu.github.io/angular-ip2/angular-ip2/
+
 ### :telephone_receiver: CONTANCT INFORMATION
 
 Find me at wairimuapril@gmail.

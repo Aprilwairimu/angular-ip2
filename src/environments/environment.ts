@@ -5,7 +5,7 @@
 export const environment = {
   production: true,
   githubapiurl: 'https://api.github.com'
-    // :'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'
+  //  :'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'
 
 
 };

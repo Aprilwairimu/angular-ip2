@@ -9,14 +9,8 @@ import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
 
-  {
-   path: 'body',
-   component: BodyComponent,
- },
-{
-  path: 'search',
-   component: SearchComponent,
- },
+{ path: 'body', component: BodyComponent,},
+{path: 'search', component: SearchComponent,},
 
 ];
 

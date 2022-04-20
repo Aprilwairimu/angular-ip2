@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../services/user.service';
 @Component({
@@ -6,14 +7,18 @@ import { UserService } from '../services/user.service';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  Userinput: string = "";
+  UserInput: string = "";
   user: any;
+  repos:any[]
   constructor(
-    private userservice: UserService
+    private userservice: UserService,
+    private http:HttpClient
   ) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
+  // getRepo(userName: string) {
+  //   return this.http.get('https://api.github.com/users/' + this.userName + '/repos');
+  // }
   getUsername(getUsername: string) {
     // console.log(username)
     this.userservice.getUser(getUsername).then((result) => this.user=result);
