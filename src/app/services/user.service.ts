@@ -7,9 +7,9 @@ import { environment } from 'src/environments/environment';
 })
 export class UserService {
   constructor(private http: HttpClient) { }
-  async getUser(username: string) {
+  async getUser(userName: string) {
     const promise = this.http.get(
-      `${environment.githubapiurl}/users/${username}`
+      `${environment.githubapiurl}/users/${userName}`
     );
     return await lastValueFrom(promise).then((result) => result).catch((error) => console.log(error));
   }

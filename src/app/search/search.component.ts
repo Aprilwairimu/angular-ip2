@@ -9,10 +9,10 @@ import { UserService } from '../services/user.service';
 export class SearchComponent implements OnInit {
   UserInput: string = "";
   user: any;
-  repos:any[]
+  // repos:any[]
   constructor(
     private userservice: UserService,
-    private http:HttpClient
+    // private http:HttpClient
   ) { }
 
   ngOnInit(): void { }
